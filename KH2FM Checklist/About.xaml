@@ -1,0 +1,50 @@
+﻿<Window x:Class="KH2FM_Checklist.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KH2FM_Checklist"
+        mc:Ignorable="d" Background="{StaticResource GreyBkg}" Foreground="White"
+        Title="About" Height="350" Width="400">
+    <Grid>
+
+        <ScrollViewer>
+            <TextBlock Margin="10" TextWrapping="Wrap">
+                
+                This program tracks various items, provides a space for the user to take notes, 
+                and provides a list of checks in the game. <LineBreak/>
+                <LineBreak/>
+                
+                Tracker <LineBreak/>
+                Left click checks an item and increments a counter. <LineBreak/>
+                Right click unchecks an item and decrements a counter. <LineBreak/>
+                Some worlds have a keyhole next to them. Left clicking on the keyhole will mark a visit.
+                Right click will unmark it. <LineBreak/>
+                <LineBreak/>
+                
+                Checklist <LineBreak/>
+                The list is mostly in order of when the player will encounter them in the game. <LineBreak/>
+                All chests are listed for each world except the chests found in the Garden of Assemblage. <LineBreak/>
+                Some checks are combined (Ex: Final popups for a world) <LineBreak/>
+                There's a Mickey symbol next to each check which can be toggled to mark checks of significance.
+                Left and right click cycles it through a gold Mickey, ability icon, magic, and a keyblade. <LineBreak/>
+                <LineBreak/>
+                
+                The list does not include leveling or form leveling. It also skips over some bonus modifier checks.<LineBreak/>
+                <LineBreak/>
+                
+                Update History: <LineBreak/>
+                <LineBreak/>
+                
+                Version 1.0 - 7/9/20 <LineBreak/>
+                <LineBreak/>
+                
+                Author: Jsmartee <LineBreak/>
+                Images from khwiki.com and khinsider.com <LineBreak/>
+                Ability icon remade by Naxshe from the KH2FM Rando Discord <LineBreak/>
+
+            </TextBlock>
+        </ScrollViewer>
+        
+    </Grid>
+</Window>
